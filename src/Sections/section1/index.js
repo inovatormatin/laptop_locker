@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import image from "../../assets/delivery.jpg";
 import { theme } from "../../theme";
+import Form from "./Form";
 
 const StyledButton = styled(Button)(
   ({ theme, forcolor, backcolor, screenWidth }) => ({
@@ -18,6 +19,7 @@ const StyledButton = styled(Button)(
 );
 
 const Section1 = ({ screenWidth }) => {
+  const [open, setOpen] = useState(false);
   return (
     <Box bgcolor="white">
       <Stack
@@ -57,6 +59,7 @@ const Section1 = ({ screenWidth }) => {
             forcolor={theme.colors.blue}
             backcolor={theme.colors.blueHover}
             screenWidth={screenWidth}
+            onClick={() => setOpen(true)}
           >
             Book Appointment
           </StyledButton>
@@ -81,6 +84,8 @@ const Section1 = ({ screenWidth }) => {
           }}
         />
       </Stack>
+      {/* Form for boooking appointment */}
+      <Form open={open} setOpen={setOpen} screenWidth={screenWidth} />
     </Box>
   );
 };

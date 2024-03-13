@@ -3,10 +3,16 @@
 * {
   font-family: "Open Sans", sans-serif !important;
 }
+
 body {
   margin: 0;
 }
 
 code {
   font-family: "Open Sans", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

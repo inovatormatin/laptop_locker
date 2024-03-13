@@ -1,9 +1,9 @@
-import React from 'react'
-import { Box, Stack, Typography } from '@mui/material'
-import { theme } from '../../theme'
-import { PhoneCall } from 'phosphor-react'
+import React from "react";
+import { Box, Stack, Typography } from "@mui/material";
+import { theme } from "../../theme";
+import { PhoneCall } from "phosphor-react";
 
-const Section6 = ({screenWidth}) => {
+const Section6 = ({ screenWidth }) => {
   return (
     <Box bgcolor={theme.colors.blueHover} p={screenWidth > 370 ? 3 : 1}>
       <Stack
@@ -13,12 +13,29 @@ const Section6 = ({screenWidth}) => {
         }}
         p={screenWidth > 690 ? 5 : 2}
         spacing={2}
-        alignItems='center'
-        justifyContent='space-between'
+        alignItems="center"
+        justifyContent="space-between"
       >
         {/* heading */}
-        <Typography variant='h4' color='white' sx={{fontWeight: "700", textAlign: 'center'}}>Schedule A Free Home Visit</Typography>
-        <Typography variant='body1' color='white' sx={{fontWeight: "500", width: screenWidth > 590 ? "550px" : "90%", textAlign: "center"}}>Just gives us a call, confirm your appointment and our executive will be at your door withing 2 hours</Typography>
+        <Typography
+          variant="h4"
+          color="white"
+          sx={{ fontWeight: "700", textAlign: "center" }}
+        >
+          Schedule A Free Home Visit
+        </Typography>
+        <Typography
+          variant="body1"
+          color="white"
+          sx={{
+            fontWeight: "500",
+            width: screenWidth > 590 ? "550px" : "90%",
+            textAlign: "center",
+          }}
+        >
+          Just gives us a call, confirm your appointment and our executive will
+          be at your door withing 2 hours
+        </Typography>
         {/* Call now */}
         <Stack
           direction="row"
@@ -35,14 +52,14 @@ const Section6 = ({screenWidth}) => {
             },
           }}
         >
-          <PhoneCall size={22} weight="duotone"/>
+          <PhoneCall size={22} weight="duotone" />
           <Typography variant="h6" sx={{ fontWeight: "500" }}>
-            +91 98980 12345
+            <a href="tel:+918586885226">+91 85868 85226</a>
           </Typography>
         </Stack>
       </Stack>
     </Box>
-  )
-}
+  );
+};
 
-export default Section6
+export default Section6;

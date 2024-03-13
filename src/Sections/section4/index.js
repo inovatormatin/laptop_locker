@@ -14,7 +14,7 @@ const StyledButton = styled(Button)(({ theme, forcolor, backcolor }) => ({
   },
 }));
 
-const Section4 = ({screenWidth}) => {
+const Section4 = ({ screenWidth }) => {
   return (
     <Box bgcolor={theme.colors.blue} p={screenWidth > 850 ? 3 : 1}>
       <Stack
@@ -28,10 +28,18 @@ const Section4 = ({screenWidth}) => {
       >
         {/* heading */}
         <Stack alignItems="center" spacing={2}>
-          <Typography variant={screenWidth > 850 ? "h3" : "h4"} sx={{ fontWeight: "500", textAlign: "center" }} color="white">
+          <Typography
+            variant={screenWidth > 850 ? "h3" : "h4"}
+            sx={{ fontWeight: "500", textAlign: "center" }}
+            color="white"
+          >
             Don’t know whats the problem?
           </Typography>
-          <Typography variant={screenWidth > 850 ? "h6" : "body1"} sx={{ fontWeight: "500", textAlign: "center" }} color="white">
+          <Typography
+            variant={screenWidth > 850 ? "h6" : "body1"}
+            sx={{ fontWeight: "500", textAlign: "center" }}
+            color="white"
+          >
             Talk to our customer care officer and explain your need or problem
           </Typography>
         </Stack>
@@ -42,7 +50,7 @@ const Section4 = ({screenWidth}) => {
           forcolor={theme.colors.reddish}
           backcolor={theme.colors.strawberryRed}
         >
-          Call Now
+          <a href="tel:+918586885226">Call Now</a>
         </StyledButton>
       </Stack>
     </Box>
