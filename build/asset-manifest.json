@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4aa2b207.css",
+    "main.js": "/static/js/main.2cce05c1.js",
+    "static/js/453.2a870895.chunk.js": "/static/js/453.2a870895.chunk.js",
+    "static/media/desktop.png": "/static/media/desktop.69ad1f47e7d3a0882c29.png",
+    "static/media/ipad.png": "/static/media/ipad.7ffcca09b8acd86ab4c0.png",
+    "static/media/camera.png": "/static/media/camera.761e1e2c5cc82c9b9ff5.png",
+    "static/media/laptop.png": "/static/media/laptop.096c0306daaa4267708b.png",
+    "static/media/delivery.jpg": "/static/media/delivery.2e6ecfd340d89939fc0c.jpg",
+    "static/media/console.png": "/static/media/console.44ade659ef4a8f10602f.png",
+    "static/media/printer.png": "/static/media/printer.5aa6a33c620542390d26.png",
+    "static/media/logo2.svg": "/static/media/logo2.1aadf9315dc7b7034a2872afadc4db62.svg",
+    "static/media/WhatsAppButtonGreenSmall.svg": "/static/media/WhatsAppButtonGreenSmall.d40c27795e09df27c997bf320e2a4a8b.svg",
+    "index.html": "/index.html",
+    "main.4aa2b207.css.map": "/static/css/main.4aa2b207.css.map",
+    "main.2cce05c1.js.map": "/static/js/main.2cce05c1.js.map",
+    "453.2a870895.chunk.js.map": "/static/js/453.2a870895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aa2b207.css",
+    "static/js/main.2cce05c1.js"
+  ]
+}
