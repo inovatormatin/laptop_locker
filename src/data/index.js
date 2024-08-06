@@ -24,13 +24,13 @@ export const reviews = [
     key: 0,
     by: "Arman",
     comment:
-      "Prompt Service, Reliable and trustworthy. Any problem you face be it hardware, software on laptop or desktop, don’t think twice, just call Gadgeto and experience their prompt and super reliable service. I was initially afraid about it but after experiencing their service, I am happy and satisfied by their knowledge, skills and customer service. Keep up the good work.",
+      "Prompt Service, Reliable and trustworthy. Any problem you face be it hardware, software on laptop or desktop, don’t think twice, just call Tech guardians and experience their prompt and super reliable service. I was initially afraid about it but after experiencing their service, I am happy and satisfied by their knowledge, skills and customer service. Keep up the good work.",
   },
   {
     key: 1,
     by: "Dewendra Dubey",
     comment:
-      "I am happy with the service provided by Gadgeto. I was in search for repair and service, I found them near my area. The response was very quick and the engineer (Mr Ranu Singh Rajput) who came for service was very good in their job and complete the work in given time, I am satisfied with their service.",
+      "I am happy with the service provided by Tech guardians. I was in search for repair and service, I found them near my area. The response was very quick and the engineer (Mr Ranu Singh Rajput) who came for service was very good in their job and complete the work in given time, I am satisfied with their service.",
   },
   {
     key: 2,

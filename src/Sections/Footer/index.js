@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { theme } from "../../theme";
 
-const Footer = ({screenWidth}) => {
+const Footer = ({ screenWidth }) => {
   return (
     <Box bgcolor="#333">
       <Stack
@@ -18,7 +18,8 @@ const Footer = ({screenWidth}) => {
       >
         {/* credits */}
         <Typography variant="subtitle2" width={screenWidth > 625 ? 600 : "90%"}>
-          © Copyright 2024 Laptop controller | All Rights Reserved by Prateek Sharma
+          © Copyright 2024 Tech guardians | All Rights Reserved by Prateek
+          Sharma
         </Typography>
       </Stack>
     </Box>

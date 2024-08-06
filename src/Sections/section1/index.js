@@ -48,7 +48,7 @@ const Section1 = ({ screenWidth }) => {
             variant={screenWidth > 620 ? "h2" : "h4"}
             sx={{ fontWeight: "600" }}
           >
-            Laptop controller
+            Tech guardians
           </Typography>
           <Typography variant={screenWidth > 620 ? "h6" : "subtitle2"}>
             Home services can be booked through our platform using an

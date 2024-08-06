@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import { theme } from "../../theme";
-import logo from "../../assets/logo2.svg";
+import logo from "../../assets/logowebp.webp";
 import { PhoneCall } from "phosphor-react";
 
 const Header = ({ screenWidth }) => {

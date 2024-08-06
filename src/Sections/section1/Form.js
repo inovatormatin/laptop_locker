@@ -135,7 +135,8 @@ const Form = ({ open, setOpen, screenWidth }) => {
 
   const sendMessageToDiscord = () => {
     if (handleValidation()) {
-      const webhookUrl = process.env.REACT_APP_DISCORD_WEBHOOK_URL;
+      const webhookUrl =
+        "https://discord.com/api/webhooks/1217839039277695066/n_VdpJAoefVoXZ1oJhaKsY2ukSAlbegjguErMIgtRRCyu_J_D8OjaUXpbdllrx6A6Jzh";
 
       // Create the formatted message with line breaks
       const formattedMessage = `
