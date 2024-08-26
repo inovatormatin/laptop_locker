@@ -41,8 +41,8 @@ const Section1 = ({ screenWidth }) => {
             color: theme.colors.text,
           }}
         >
-          <Typography variant={screenWidth > 620 ? "h4" : "h6"}>
-            For all your Gadgets
+          <Typography variant={screenWidth > 620 ? "h5" : "h6"}>
+            Comprehensive Care for All Your Gadgets
           </Typography>
           <Typography
             variant={screenWidth > 620 ? "h2" : "h4"}
@@ -50,9 +50,13 @@ const Section1 = ({ screenWidth }) => {
           >
             Tech guardians
           </Typography>
-          <Typography variant={screenWidth > 620 ? "h6" : "subtitle2"}>
-            Home services can be booked through our platform using an
-            easy-to-use website or call and it only takes a few seconds.
+          <Typography variant={screenWidth > 620 ? "body1" : "subtitle2"}>
+            Experience effortless service booking with our platform! Whether you
+            prefer to use our user-friendly website, make a quick phone call, or
+            chat with us on WhatsApp, scheduling your home services has never
+            been easier. In just a few seconds, you can get the help you need
+            without any hassle. Choose the method that suits you best and enjoy
+            seamless service right at your doorstep!
           </Typography>
           <StyledButton
             variant="contained"

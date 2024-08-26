@@ -25,7 +25,7 @@ const Section3 = ({ screenWidth }) => {
             textAlign: screenWidth > 570 ? "left" : "center",
           }}
         >
-          We are best at Laptop home Service!
+          Setting the Standard in Laptop Home Service
         </Typography>
         {/* bestAt */}
         <Grid container>

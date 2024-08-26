@@ -33,14 +33,15 @@ const Section4 = ({ screenWidth }) => {
             sx={{ fontWeight: "500", textAlign: "center" }}
             color="white"
           >
-            Don’t know whats the problem?
+            Not certain what's causing the trouble?
           </Typography>
           <Typography
             variant={screenWidth > 850 ? "h6" : "body1"}
             sx={{ fontWeight: "500", textAlign: "center" }}
             color="white"
           >
-            Talk to our customer care officer and explain your need or problem
+            Reach out to our support staff to explain your issue or
+            requirements.
           </Typography>
         </Stack>
         {/* Call now */}

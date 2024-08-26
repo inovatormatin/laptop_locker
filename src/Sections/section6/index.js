@@ -22,7 +22,7 @@ const Section6 = ({ screenWidth }) => {
           color="white"
           sx={{ fontWeight: "700", textAlign: "center" }}
         >
-          Schedule A Free Home Visit
+          Book a Complimentary Home Visit
         </Typography>
         <Typography
           variant="body1"
@@ -33,8 +33,8 @@ const Section6 = ({ screenWidth }) => {
             textAlign: "center",
           }}
         >
-          Just gives us a call, confirm your appointment and our executive will
-          be at your door withing 2 hours
+          Confirm your appointment with a quick call, and our team will be at
+          your door within the hour.
         </Typography>
         {/* Call now */}
         <Stack

@@ -31,7 +31,7 @@ const Header = ({ screenWidth }) => {
               fontSize: screenWidth > 800 ? "12px" : "1.4vw",
             }}
           >
-            Gadgets & Technology Cares
+            Your Devices, Our Expertise
           </Typography>
         </Stack>
         {/* phone number */}

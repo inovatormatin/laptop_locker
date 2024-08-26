@@ -9,24 +9,28 @@ const Card = ({ title, icon, img, sz, screenWidth }) => {
       <Stack
         justifyContent="center"
         alignItems="center"
-        p={screenWidth > 690 ? 3 :2}
+        p={screenWidth > 690 ? 3 : 2}
         m={0.8}
         spacing={screenWidth > 690 ? 3 : 1}
         sx={{
           backgroundColor: "#f6f6f6",
           borderRadius: screenWidth > 690 ? "15px" : "10px",
           width: screenWidth > 690 ? "80%" : "75%",
-          height: screenWidth > 690 ? "200px" : "100px" ,
+          height: screenWidth > 690 ? "200px" : "100px",
         }}
       >
         {/* {icon} */}
-        <img src={img} alt={title} style={{
-          width: "50%",
-          aspectRatio: "3/2",
-          objectFit: "contain",
-        }}/>
+        <img
+          src={img}
+          alt={title}
+          style={{
+            width: "50%",
+            aspectRatio: "3/2",
+            objectFit: "contain",
+          }}
+        />
         <Typography
-          variant= {screenWidth > 690 ? "h6" : "body1"}
+          variant={screenWidth > 690 ? "h6" : "body1"}
           sx={{ textAlign: "center", fontWeight: "600" }}
         >
           {title}
@@ -36,19 +40,19 @@ const Card = ({ title, icon, img, sz, screenWidth }) => {
   );
 };
 
-const Section2 = ({screenWidth}) => {
+const Section2 = ({ screenWidth }) => {
   const [gridSize, setGridSize] = useState(4);
-  useEffect(()=>{
-    if(screenWidth > 960){
-      setGridSize(4)
+  useEffect(() => {
+    if (screenWidth > 960) {
+      setGridSize(4);
     }
-    if(screenWidth < 960){
-      setGridSize(6)
+    if (screenWidth < 960) {
+      setGridSize(6);
     }
-    if(screenWidth < 690){
-      setGridSize(6)
+    if (screenWidth < 690) {
+      setGridSize(6);
     }
-  },[screenWidth])
+  }, [screenWidth]);
   return (
     <Box bgcolor={theme.colors.blue} p={screenWidth > 690 ? 3 : 1}>
       <Stack
@@ -63,11 +67,20 @@ const Section2 = ({screenWidth}) => {
       >
         <Stack alignItems="center" spacing={1.5}>
           {/* heading */}
-          <Typography variant={screenWidth > 880 ? "h3" : "h4"} sx={{textAlign: "center"}} color="white">
-            We bring the best services to you.
+          <Typography
+            variant={screenWidth > 880 ? "h3" : "h4"}
+            sx={{ textAlign: "center" }}
+            color="white"
+          >
+            Bringing the Finest Services Directly to You.
           </Typography>
-          <Typography variant={screenWidth > 880 ? "h6" : "body1"} sx={{textAlign: "center"}} color="white">
-            Best Doorstep Pick & Drop Facility With Top-notch Quality Services.
+          <Typography
+            variant={screenWidth > 880 ? "h6" : "body1"}
+            sx={{ textAlign: "center" }}
+            color="white"
+          >
+            On-Site Excellence – Fast Pick-Up and Drop-Off with Unmatched
+            Quality!
           </Typography>
         </Stack>
         <Grid container>

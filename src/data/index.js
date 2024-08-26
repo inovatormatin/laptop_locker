@@ -22,27 +22,27 @@ import { Stack } from "@mui/material";
 export const reviews = [
   {
     key: 0,
-    by: "Arman",
+    by: "Deepak Singh",
     comment:
-      "Prompt Service, Reliable and trustworthy. Any problem you face be it hardware, software on laptop or desktop, don’t think twice, just call Tech guardians and experience their prompt and super reliable service. I was initially afraid about it but after experiencing their service, I am happy and satisfied by their knowledge, skills and customer service. Keep up the good work.",
+      "I had a fantastic experience with Tech Guardians. My laptop was having multiple issues, and I was worried about downtime. The team was incredibly responsive and walked me through the entire process. They diagnosed the problems quickly, explained everything clearly, and had my laptop back to me in no time. The repair quality was excellent, and my laptop is now running better than ever. I highly recommend Tech Guardians to anyone in need of reliable and efficient laptop repairs!",
   },
   {
     key: 1,
-    by: "Dewendra Dubey",
+    by: "Arun Goyal",
     comment:
-      "I am happy with the service provided by Tech guardians. I was in search for repair and service, I found them near my area. The response was very quick and the engineer (Mr Ranu Singh Rajput) who came for service was very good in their job and complete the work in given time, I am satisfied with their service.",
+      "Our company faced a significant issue with several computers and laptops, and we needed a swift solution. Tech Guardians exceeded our expectations. The team was professional, thorough, and provided excellent on-site support. They quickly identified and resolved the issues, minimizing our downtime. Their Annual Maintenance Contract (AMC) has been a game-changer, ensuring that our tech remains in top condition. The level of service and expertise is unmatched, and we couldn't be happier with the results. Highly recommended for any business looking for dependable tech support! ",
   },
   {
     key: 2,
-    by: "Kavya Agarwal",
+    by: "Jitendra",
     comment:
-      "It was nice experience, Goshant did his job well and guided positively about the resolving of the issue.",
+      "I can't speak highly enough about the service I received from Tech Guardians. My desktop had a major hardware issue, and I was concerned about the cost and the time it would take to fix it. The technicians were not only knowledgeable but also very transparent about pricing and repair times. They kept me informed every step of the way and returned my computer in perfect working order. Their attention to detail and customer care are truly commendable. If you're looking for a trustworthy and skilled repair service, look no further than Tech Guardians! ",
   },
   {
     key: 3,
-    by: "Ashish Singh",
+    by: "Mukesh ",
     comment:
-      "Laptop home service is good. Service executive( jitender kumar) is expert. He has fixed system problem and change few parts in good manner.",
+      "From start to finish, Tech Guardians provided top-notch service. I had an urgent issue with my laptop right before a big presentation. I reached out to them, and they were incredibly accommodating, offering quick turnaround and clear communication. They identified and fixed the problem promptly and even provided useful tips on maintaining my laptop. Their professionalism and dedication to customer satisfaction are evident, and I am grateful for their outstanding support. I will definitely be returning to Tech Guardians for any future tech needs! ",
   },
 ];
 
@@ -68,7 +68,7 @@ export const list = [
   {
     index: 3,
     icon: <GameController size={70} />,
-    title: "Game Console",
+    title: "AMC Service",
     img: console,
   },
   {
@@ -88,29 +88,32 @@ export const list = [
 export const bestAt = [
   {
     key: 0,
-    heading: "Friendly 7Days in a Week customer service.",
+    heading:
+      "Consistent, Top-Notch Service – Here for You Every Day of the Week.",
     colored: false,
     details:
-      "Our Cuppor Centers are open 7 days in a week. Only Gov Registered Holidays eg. holi, Diwali.",
+      "At our laptop repair centers, we offer consistent, top-notch service every day of the week. Our dedicated team is available to help with your laptop issues whenever you need, ensuring reliable and high-quality repairs.",
   },
   {
     key: 1,
-    heading: "No time windows, book when you want.",
+    heading: "B2B Offerings and Tailored AMC Services",
     colored: true,
-    details: "Book Online Appointment Any Time From Anywhere in Delhi-NCR.",
+    details:
+      "Our B2B offerings include specialized laptop and computer repair services tailored for corporate offices. We also provide customized Annual Maintenance Contracts (AMC) to ensure your business’s tech stays in top condition throughout the year.",
   },
   {
     key: 2,
-    heading: "Affordable, upfront pricing.",
+    heading: "Budget-Friendly Repairs",
     colored: true,
-    details: "No Extra Charges. Only pay for the Original Parts.",
+    details:
+      "Enjoy transparent and affordable pricing with no hidden fees. We provide clear, upfront costs for all our services, so you know exactly what to expect before any work begins",
   },
   {
     key: 3,
-    heading: "Vaccinated and sanitized delivery executive.",
+    heading: "Flexible Booking – Choose Any Time That Works for You.",
     colored: false,
     details:
-      "All our executives are vaccinated and sanitize themself and tools before and after use. They always wear a mask.",
+      "With our flexible booking system, you can schedule your computer or laptop repair at any time that suits you. No need to adhere to specific time windows—just choose a slot that works for your schedule and let us handle the rest!",
   },
 ];
 

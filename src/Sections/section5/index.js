@@ -1,10 +1,9 @@
-import React from 'react'
-import { Avatar, Box, Grid, Stack, Typography } from '@mui/material'
-import { theme } from '../../theme'
-import { reviews } from '../../data'
+import React from "react";
+import { Avatar, Box, Grid, Stack, Typography } from "@mui/material";
+import { theme } from "../../theme";
+import { reviews } from "../../data";
 
-
-const Section5 = ({screenWidth}) => {
+const Section5 = ({ screenWidth }) => {
   return (
     <Box bgcolor={theme.colors.grey} p={3}>
       <Stack
@@ -14,14 +13,19 @@ const Section5 = ({screenWidth}) => {
         }}
         p={screenWidth > 590 ? 4 : 0}
         spacing={screenWidth > 590 ? 5 : 2}
-        alignItems='center'
-        justifyContent='space-between'
+        alignItems="center"
+        justifyContent="space-between"
       >
         {/* heading */}
-        <Typography variant={screenWidth > 860 ? 'h3' : 'h4'} sx={{ fontWeight: "500", textAlign: 'center' }}>Read what our clients say.</Typography>
+        <Typography
+          variant={screenWidth > 860 ? "h3" : "h4"}
+          sx={{ fontWeight: "500", textAlign: "center" }}
+        >
+          Hear directly from our satisfied clients.
+        </Typography>
         {/* reviews */}
         <Grid container>
-          {reviews.map(el => {
+          {reviews.map((el) => {
             return (
               <Grid
                 item
@@ -32,21 +36,28 @@ const Section5 = ({screenWidth}) => {
                 sx={{
                   backgroundColor: "whiteSmoke",
                   borderRadius: "15px",
-                  fontWeight: "500"
+                  fontWeight: "500",
                 }}
               >
-                <Stack direction='row' alignItems='center' spacing={2} sx={{ marginBottom: "13px" }}>
+                <Stack
+                  direction="row"
+                  alignItems="center"
+                  spacing={2}
+                  sx={{ marginBottom: "13px" }}
+                >
                   <Avatar />
-                  <Typography variant='h6' sx={{  fontWeight: "600"}}>{el.by}</Typography>
+                  <Typography variant="h6" sx={{ fontWeight: "600" }}>
+                    {el.by}
+                  </Typography>
                 </Stack>
-                <Typography variant='body1'>{el.comment}</Typography>
+                <Typography variant="body1">{el.comment}</Typography>
               </Grid>
             );
           })}
         </Grid>
       </Stack>
     </Box>
-  )
-}
+  );
+};
 
-export default Section5
+export default Section5;
