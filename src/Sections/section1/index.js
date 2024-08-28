@@ -42,7 +42,7 @@ const Section1 = ({ screenWidth }) => {
           }}
         >
           <Typography variant={screenWidth > 620 ? "h5" : "h6"}>
-            Comprehensive Care for All Your Gadgets
+            Care for All Your Gadgets
           </Typography>
           <Typography
             variant={screenWidth > 620 ? "h2" : "h4"}
